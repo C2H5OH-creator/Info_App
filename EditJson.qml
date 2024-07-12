@@ -32,12 +32,7 @@ ApplicationWindow {
                 text: "Save JSON"
                 onClicked: {
                     JsonMove.text = textArea.text
-                    /*
-                        Я понимаю, что абсолютные пути использовать нельзя, но
-                        по какой-то причине в некоторых местах (в остальных, где всё хорошо, относительные) qml
-                        наотрез отказывается видеть файл, чтобы я не делал
-                    */
-                    var saved = JsonMove.saveJsonToFile("C:/QT/Labs/No_Cmake/grid_config.json");
+                    var saved = JsonMove.saveJsonToFile("grid_config.json");
                     if (saved)
                         console.log("JSON saved successfully.");
                     else

@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
     JsonMove JsonMove;
     //Функция для своевременного обновления мини-редактора JSON-файлов
     auto reloadJsonData = [&]() {
-        QVariantMap jsonData = jsonParse("C:/QT/Labs/No_Cmake/grid_config.json");
+        QVariantMap jsonData = jsonParse("grid_config.json");
         QJsonObject jsonObj = QJsonObject::fromVariantMap(jsonData);
         QJsonDocument jsonDoc(jsonObj);
         JsonMove.setText(jsonDoc.toJson(QJsonDocument::Indented));
