@@ -1,0 +1,28 @@
+{
+    "frames": [
+        {
+            "column": 0,
+            "name": "Weather",
+            "row": 0,
+            "url": "https://www.accuweather.com/"
+        },
+        {
+            "column": 1,
+            "name": "News",
+            "row": 0,
+            "url": "https://news.google.com/"
+        },
+        {
+            "column": 0,
+            "name": "Maps",
+            "row": 1,
+            "url": "https://www.google.com/maps"
+        },
+        {
+            "column": 1,
+            "name": "Clock",
+            "row": 1,
+            "url": "https://www.timeanddate.com/worldclock/"
+        }
+    ]
+}
